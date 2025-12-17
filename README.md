@@ -1,44 +1,82 @@
-# Interactive Oligopoly Study Tool
 
-📘 AQA A Level Economics – Market Structures (Oligopoly)
+An interactive, exam-focused web application designed to help AQA A Level Economics students understand **oligopoly market structures** through theory, summaries, and an AI-powered Q&A assistant.
 
-## Features
-- Interactive theory overview
-- Exam-focused quick facts
-- Video summaries
-- AI-powered Q&A chat
-- Clean modern UI
+## 🎯 Project Objective
+The goal of this project is to:
+- Simplify complex economic concepts
+- Provide exam-oriented explanations
+- Encourage active learning through interaction
+- Demonstrate frontend engineering skills suitable for **internship shortlisting**
 
-## Tech Stack
-- React
-- Vite
-- Lucide Icons
+## ✨ Features
 
-## Run Locally
-```bash
-npm install
-npm run dev
+- 📚 **Structured Theory Overview**
+- ⚡ **Quick Facts for Revision**
+- 🎥 **Video Concept Summaries**
+- 💬 **Interactive Q&A Chat (AI-Powered)**
+- 🧠 **Exam Tips & Evaluation Points**
+- 📱 **Fully Responsive UI**
+- 🎨 **Modern, Clean Design**
 
-Build
+## 🛠 Tech Stack
+
+| Technology | Usage |
+|---------|------|
+| React | UI Development |
+| Vite | Fast build tooling |
+| JavaScript (ES6) | Logic |
+| Lucide Icons | Icons |
+| CSS | Styling |
+| REST API | AI Q&A |
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ └── OligopolyStudyTool.jsx
+├── data/
+│ ├── oligopolyKnowledge.js
+│ ├── sampleQuestions.js
+│ ├── quickFacts.js
+│ └── videoSummaries.js
+├── App.jsx
+├── main.jsx
+└── index.css
+
+📦 Build for Production
 npm run build
 
-Author
+🎓 Academic Relevance
+
+Aligned with:
+
+AQA A Level Economics
+
+Topic 4.1.5 – Oligopoly
+
+Suitable for exam preparation and classroom use
+
+📈 What This Project Demonstrates (Internship View)
+
+Clean component architecture
+
+Data separation & scalability
+
+Modern React practices
+
+UX-focused design
+
+Ability to translate academic content into software
+
+👨‍💻 Author
 
 Sahil Pravin Burele
+Aspiring Software Developer | Economics + Tech Projects
 
 📄 License
 
 This project is for educational use.
-
-##ScreenShot**
-<img width="930" height="868" alt="image" src="https://github.com/user-attachments/assets/09e22e38-2cca-45ec-83df-50b37e240f1c" />
-<img width="924" height="861" alt="image" src="https://github.com/user-attachments/assets/b492cc62-49af-4fd4-8e46-dde576bb78b9" />
-<img width="929" height="868" alt="image" src="https://github.com/user-attachments/assets/2c01e583-e19f-49a9-aac6-bc8ed8b1384a" />
-<img width="931" height="868" alt="image" src="https://github.com/user-attachments/assets/e328fe8a-1c9c-4fd0-b76a-9a42270a98e7" />
-<img width="925" height="754" alt="image" src="https://github.com/user-attachments/assets/8f57ea4e-8c8b-45f6-ba2b-d83e9cd6e671" />
-<img width="933" height="871" alt="image" src="https://github.com/user-attachments/assets/339d9557-61db-4156-a262-05f9be4da364" />
-<img width="928" height="832" alt="image" src="https://github.com/user-attachments/assets/3727325f-1edb-43d1-9281-44e39290a042" />
-
----
 
 
